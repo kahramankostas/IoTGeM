@@ -1,0 +1,59 @@
+﻿No,File Name,Category,Sub-category,Rule
+2,mitm-arpspoofing-1-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  ((((ip.src == 192.168.0.16 and ip.dst == 192.168.0.13)  or (ip.src == 192.168.0.13 and ip.dst == 192.168.0.16))  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == bc:1c:81:4b:ae:ba or arp.dst.hw_mac == 48:4b:aa:2c:d8:f9))) 
+3,mitm-arpspoofing-2-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  ((((ip.src == 192.168.0.16 and ip.dst == 192.168.0.13)  or (ip.src == 192.168.0.13 and ip.dst == 192.168.0.16))  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == bc:1c:81:4b:ae:ba or arp.dst.hw_mac == 48:4b:aa:2c:d8:f9))) 
+4,mitm-arpspoofing-3-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  ((((ip.src == 192.168.0.16 and ip.dst == 192.168.0.13)  or (ip.src == 192.168.0.13 and ip.dst == 192.168.0.16))  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == bc:1c:81:4b:ae:ba or arp.dst.hw_mac == 48:4b:aa:2c:d8:f9))) 
+5,mitm-arpspoofing-4-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  (((ip.addr == 192.168.0.24)  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == 04:32:f4:45:17:b3 or arp.dst.hw_mac == 88:36:6c:d7:1c:56))) 
+6,mitm-arpspoofing-5-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  (((ip.addr == 192.168.0.24)  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == 04:32:f4:45:17:b3 or arp.dst.hw_mac == 88:36:6c:d7:1c:56))) 
+7,mitm-arpspoofing-6-dec.pcap,Man in the Middle (MITM),ARP Spoofing,eth.addr == f0:18:98:5e:ff:9f and  (((ip.addr == 192.168.0.24)  and !icmp and tcp)  or (arp.src.hw_mac == f0:18:98:5e:ff:9f  and (arp.dst.hw_mac == 04:32:f4:45:17:b3 or arp.dst.hw_mac == 88:36:6c:d7:1c:56))) 
+8,dos-synflooding-1-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.src == 222.0.0.0/8 and tcp.flags.syn == 1 and ip.dst == 192.168.0.13 and tcp.dstport == 554 and tcp
+9,dos-synflooding-2-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.src == 222.0.0.0/8 and tcp.flags.syn == 1 and ip.dst == 192.168.0.13 and tcp.dstport == 554 and tcp
+10,dos-synflooding-3-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.src == 111.0.0.0/8 and tcp.flags.syn == 1 and ip.dst == 192.168.0.13 and tcp.dstport == 554 and tcp
+11,dos-synflooding-4-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.dst == 192.168.0.24 and tcp.flags.syn == 1 and ip.src == 111.0.0.0/8 and tcp and tcp.dstport == 19604
+12,dos-synflooding-5-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.dst == 192.168.0.24 and tcp.flags.syn == 1 and ip.src == 111.0.0.0/8 and tcp and tcp.dstport == 19604
+13,dos-synflooding-6-dec.pcap,Denial of Service (DoS),SYN Flooding,ip.dst == 192.168.0.24 and tcp.flags.syn == 1 and ip.src == 111.0.0.0/8 and tcp and tcp.dstport == 19604
+14,scan-hostport-1-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 13000
+15,scan-hostport-1-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+16,scan-hostport-2-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 14500
+17,scan-hostport-2-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+18,scan-hostport-3-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 2000
+19,scan-hostport-3-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+20,scan-hostport-4-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 4000
+21,scan-hostport-4-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+22,scan-hostport-5-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 1300
+23,scan-hostport-5-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+24,scan-hostport-6-dec.pcap,Scanning,Host Discovery,(eth.src == f0:18:98:5e:ff:9f and arp and eth.dst == ff:ff:ff:ff:ff:ff) and frame.number < 1000
+25,scan-hostport-6-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+26,scan-portos-1-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+27,scan-portos-1-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.13) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+28,scan-portos-2-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+29,scan-portos-2-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.13) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+30,scan-portos-3-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+31,scan-portos-3-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.13) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.13 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+32,scan-portos-4-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+33,scan-portos-4-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.24) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+34,scan-portos-5-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+35,scan-portos-5-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.24) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+36,scan-portos-6-dec.pcap,Scanning,Port Scanning,ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1)
+37,scan-portos-6-dec.pcap,Scanning,OS/Version Detection,(ip.src == 192.168.0.15 and ip.dst == 192.168.0.24) and (not icmp) and not (ip.src == 192.168.0.15 and ip.dst == 192.168.0.24 and ((tcp.flags.syn == 1 and tcp.window_size == 1024) or tcp.flags.reset == 1))
+38,mirai-udpflooding-1-dec.pcap,Mirai Botnet,UDP Flooding,ip.dst == 210.89.164.90
+39,mirai-udpflooding-2-dec.pcap,Mirai Botnet,UDP Flooding,ip.dst == 210.89.164.90
+40,mirai-udpflooding-3-dec.pcap,Mirai Botnet,UDP Flooding,ip.dst == 210.89.164.90
+41,mirai-udpflooding-4-dec.pcap,Mirai Botnet,UDP Flooding,ip.dst == 210.89.164.90
+42,mirai-ackflooding-1-dec.pcap,Mirai Botnet,ACK Flooding,ip.dst == 210.89.164.90
+43,mirai-ackflooding-2-dec.pcap,Mirai Botnet,ACK Flooding,ip.dst == 210.89.164.90
+44,mirai-ackflooding-3-dec.pcap,Mirai Botnet,ACK Flooding,ip.dst == 210.89.164.90
+45,mirai-ackflooding-4-dec.pcap,Mirai Botnet,ACK Flooding,ip.dst == 210.89.164.90
+46,mirai-httpflooding-1-dec.pcap,Mirai Botnet,HTTP Flooding,ip.dst == 210.89.164.90
+47,mirai-httpflooding-2-dec.pcap,Mirai Botnet,HTTP Flooding,ip.dst == 210.89.164.90
+48,mirai-httpflooding-3-dec.pcap,Mirai Botnet,HTTP Flooding,ip.dst == 210.89.164.90
+49,mirai-httpflooding-4-dec.pcap,Mirai Botnet,HTTP Flooding,ip.dst == 210.89.164.90
+50,mirai-hostbruteforce-1-dec.pcap,Mirai Botnet,Host Discovery,arp.dst.proto_ipv4 == 192.168.0.0/24 and arp.src.proto_ipv4 == 192.168.0.13 and eth.dst == ff:ff:ff:ff:ff:ff
+51,mirai-hostbruteforce-1-dec.pcap,Mirai Botnet,Telnet Bruteforce,tcp.dstport==23 and ip.src==192.168.0.13
+52,mirai-hostbruteforce-2-dec.pcap,Mirai Botnet,Host Discovery,arp.dst.proto_ipv4 == 192.168.0.0/24 and arp.src.proto_ipv4 == 192.168.0.24 and eth.dst == ff:ff:ff:ff:ff:ff
+53,mirai-hostbruteforce-2-dec.pcap,Mirai Botnet,Telnet Bruteforce,tcp.dstport==23 and ip.src==192.168.0.24
+54,mirai-hostbruteforce-3-dec.pcap,Mirai Botnet,Host Discovery,arp.dst.proto_ipv4 == 192.168.0.0/24 and arp.src.proto_ipv4 == 192.168.0.13 and eth.dst == ff:ff:ff:ff:ff:ff
+55,mirai-hostbruteforce-3-dec.pcap,Mirai Botnet,Telnet Bruteforce,tcp.dstport==23 and ip.src==192.168.0.13
+56,mirai-hostbruteforce-4-dec.pcap,Mirai Botnet,Host Discovery,arp.dst.proto_ipv4 == 192.168.0.0/24 and arp.src.proto_ipv4 == 192.168.0.24 and eth.dst == ff:ff:ff:ff:ff:ff
+57,mirai-hostbruteforce-4-dec.pcap,Mirai Botnet,Telnet Bruteforce,tcp.dstport==23 and ip.src==192.168.0.24
+58,mirai-hostbruteforce-5-dec.pcap,Mirai Botnet,Host Discovery,arp.dst.proto_ipv4 == 192.168.0.0/24 and arp.src.proto_ipv4 == 192.168.0.13 and eth.dst == ff:ff:ff:ff:ff:ff
+59,mirai-hostbruteforce-5-dec.pcap,Mirai Botnet,Telnet Bruteforce,tcp.dstport==23 and ip.src==192.168.0.13
