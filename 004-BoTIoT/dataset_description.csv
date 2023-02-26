@@ -1,7 +1,0 @@
-﻿No,File Name,Category,Sub-category,Rule
-2,HTTP_DDoS_00001.pcap,DDoS,HTTP FlooD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150)
-3,HTTP_DoS_00001.pcap,DoS,HTTP FlooD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150)
-4,TCP_DDoS_00001.pcap,DDoS,SYN FLOOD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150) && tcp.flags.syn == 1
-5,TCP_DoS_00001.pcap,DoS,SYN FLOOD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150) && tcp.flags.syn == 1
-6,UDP_DDoS_00001.pcap,DDoS,UDP FLOOD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150) && (ip.proto == 17)
-7,UDP_DoS_00001.pcap,DoS,UDP FLOOD,(ip.src==192.168.100.147 || ip.src==192.168.100.148  || ip.src==192.168.100.149  || ip.src==192.168.100.150) && (ip.proto == 17)

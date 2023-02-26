@@ -1,5 +1,0 @@
-﻿No,File Name,Category,Sub-category,Rule
-1,udp_flood.pcap,Flood,UDP, (ip.proto == 17) && (udp.dstport == 80)
-2,SYN.pcap,Flood,SYN,ip.dst==10.128.0.2 && ip.src==10.0.0.2
-3,ACK_v3.pcap,Flood,ACK,tcp.flags.ack == 1
-4,http-flood.pcap,Flood,HTTP,ip.src==10.0.0.2 && ip.dst==10.128.0.2

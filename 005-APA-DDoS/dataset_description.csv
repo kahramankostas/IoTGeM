@@ -1,2 +1,0 @@
-﻿No,File Name,Category,Sub-category,Rule
-2,ACK.pcap,DDoS,ACK FlooD,ip.dst==192.168.23.2 && tcp.flags.ack == 1
