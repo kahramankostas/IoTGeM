@@ -91,10 +91,14 @@ If you do not have packet-level labels, the LabelMaker file will generate them f
 
 ### 1.2- Flow-based features
 
-For flow-based feature extraction, we used [CICFlowMeterV3](https://www.unb.ca/cic/research/applications.html), a tool that quickly converts pcap files into flow-based features (CSV files). For labelling, most of the databases provide their own labelled CSV files. You can use these labels. We have used a python script to import the labels of some datasets into these files. You can find a few examples of how we did this in the *FLOW-LABELLER.ipynb* file.
+For flow-based feature extraction, we used [CICFlowMeter](https://www.unb.ca/cic/research/applications.html) (see Fig.2), a tool that quickly converts pcap files into flow-based features as CSV files. For labelling, most of the databases provide their own labelled CSV files. You can use these labels. We have used a python script to import the labels of some datasets into these files. You can find a few examples of how we did this in the *FLOW-LABELLER.ipynb* file.
 
+
+![Alt text](./imgs/cicflowmeter.jpg)
+<p style="text-align: center;">Fig. 2 - CICFlowMeter V3 user interface. </p>
  
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 I WILL ADD MORE
+
