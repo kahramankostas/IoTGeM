@@ -1,0 +1,11 @@
+hidden_layer_sizes,solver,activation,alpha,learning_rate,F1,Std,Time,No,Attack
+adam,adaptive,"(1885, 1004)",0.01,relu,0.9993958379274824,0.0,4778.3,0,SYN
+adam,constant,"(1832, 332)",0.05,relu,0.9944361458468798,0.0,2147.559,0,HTTP
+lbfgs,adaptive,"(131, 377)",0.0001,tanh,1.0,0.0,2357.171,0,ACK
+adam,adaptive,"(930, 745)",0.001,tanh,1.0,0.0,400.477,0,UDP
+sgd,constant,"(911, 400)",0.0001,tanh,0.5615423489626903,0.0,1769.983,0,ARP
+sgd,adaptive,"(49, 1934)",0.05,tanh,0.4707654646455136,0.0,872.722,0,SP
+adam,constant,"(1843, 1696)",0.05,relu,0.976648422235333,0.0,2622.177,0,BF
+adam,adaptive,"(696,)",0.0001,relu,1.0,0.0,704.217,0,OS
+adam,constant,"(59,)",0.0001,relu,0.9952063707856353,0.0,911.754,0,SCHD
+lbfgs,adaptive,"(100, 1368)",0.1,tanh,1.0,0.0,569.912,0,MHDis

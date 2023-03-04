@@ -79,9 +79,9 @@ We used these datasets for different purposes at different stages of our study. 
 ## 1- Feature Extraction (PCAP2CSV) 
 
 ### 1.1- Individual and Window based Features
-This section uses the *pcap2csv* tool to extract features from pcap files. Packet-level labels are required for labelling. Some datasets have packet-based labels (such as Kitsune). If you have labels, save them with the same name as the pcap file (such as example.pcap & example.csv). The *pcap2csv* file will transfer the labels to *CSV* during the feature extraction process. 
+This section uses the [pcap2csv](https://github.com/kahramankostas/HerIoT/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/001%20-%20Features_Extraction%20(pcap%202%20end).ipynb) tool to extract features from pcap files. Packet-level labels are required for labelling. Some datasets have packet-based labels (such as Kitsune). If you have labels, save them with the same name as the pcap file (such as example.pcap & example.csv). The *pcap2csv* file will transfer the labels to *CSV* during the feature extraction process. 
 
-If you do not have packet-level labels, the LabelMaker file will generate them from the *pcap* file. To do this, simply add the [WireShark](https://www.wireshark.org/) rules for identifying attacks to the "dataset_description.csv" file (see Fig.1).
+If you do not have packet-level labels, the LabelMaker file will generate them from the *pcap* file. To do this, simply add the [WireShark](https://www.wireshark.org/) rules for identifying attacks to the [dataset_description.csv](https://github.com/kahramankostas/HerIoT/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/dataset_description.csv) file (see Fig.1).
 
 
 ![Alt text](./imgs/tshark.svg)
@@ -91,7 +91,7 @@ If you do not have packet-level labels, the LabelMaker file will generate them f
 
 ### 1.2- Flow-based features
 
-For flow-based feature extraction, we used [CICFlowMeter](https://www.unb.ca/cic/research/applications.html) (see Fig.2), a tool that quickly converts pcap files into flow-based features as CSV files. For labelling, most of the databases provide their own labelled CSV files. You can use these labels. We have used a python script to import the labels of some datasets into these files. You can find a few examples of how we did this in the *FLOW-LABELLER.ipynb* file.
+For flow-based feature extraction, we used [CICFlowMeter](https://www.unb.ca/cic/research/applications.html) (see Fig.2), a tool that quickly converts pcap files into flow-based features as CSV files. For labelling, most of the databases provide their own labelled CSV files. You can use these labels. We have used a python script to import the labels of some datasets into these files. You can find a few examples of how we did this in the [FLOW-LABELLER.ipynb](https://github.com/kahramankostas/HerIoT/blob/main/0001%20Feature%20Extraction%20-%20PCAP2CSV/000%20-%20FLOW-LABELLER.ipynb) file.
 
 
 ![Alt text](./imgs/cicflowmeter.jpg)
