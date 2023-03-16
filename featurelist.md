@@ -1,13 +1,4 @@
-# Custom CSS in Markdown Example
 
-This is a document where tables are rendered with every second table row with a specific background and foreground colour 
-
-<style>
-tr:nth-child(even) {
-  background-color: #E5E4E2!important;
-  color: #000!important;
-}
-</style>
  |Feature|Description|Ind.|RW|EW|
 |-----|-----|-----|-----|-----|
 |ts|Time Stamp|+|||
