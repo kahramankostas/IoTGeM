@@ -1,5 +1,4 @@
-
- |Feature|Description|Ind.|RW|EW|
+|Feature|Description|Ind.|RW|EW|
 |-----|-----|-----|-----|-----|
 |ts|Time Stamp|+|||
 |Ether_dst|Destination Media Access Control (MAC) Address|+|||
@@ -98,13 +97,43 @@
 |payload_bytes|Payload size in Bytes|+|||
 |entropy|Payload Entropy|+|||
 |Protocol|WireShark Protocol|+|||
+|sport|Source Port Number|+|||
+|dport|Destination Port Number|+|||
+|ID|WS_src=>WS_dst|+|||
+|pck_size_mean_6|RW (Rolling windows) packet size mean  - Window size =6||+||
+|pck_size_std_6|RW packet size Std. - Window size =6||+||
+|ts_mean_6|RW packet time mean - Window size =6||+||
+|ts_std_6|RW packet time Std.- Window size =6||+||
+|TCP_window_mean_6|RW TCP Windows size mean - Window size =6||+||
+|TCP_window_std_6|RW TCP Windows size Std. - Window size =6||+||
+|payload_bytes_mean_6|RW Payload bytes mean - Window size =6||+||
+|payload_bytes_std_6|RW Payload bytes Std. - Window size =6||+||
+|entropy_mean_6|RW Entropy mean - Window size =6||+||
+|entropy_std_6|RW Entropy Std. - Window size =6||+||
+|pck_size_mean_9|RW (Rolling windows) packet size mean  - Window size =9||+||
+|pck_size_std_9|RW packet size Std. - Window size =9||+||
+|ts_mean_9|RW packet time mean - Window size =9||+||
+|ts_std_9|RW packet time Std.- Window size =9||+||
+|TCP_window_mean_9|RW TCP Windows size mean - Window size =9||+||
+|TCP_window_std_9|RW TCP Windows size Std. - Window size =9||+||
+|payload_bytes_mean_9|RW Payload bytes mean - Window size =9||+||
+|payload_bytes_std_9|RW Payload bytes Std. - Window size =9||+||
+|entropy_mean_9|RW Entropy mean - Window size =9||+||
+|entropy_std_9|RW Entropy Std. - Window size =9||+||
+|pck_size_mean_2|RW (Rolling windows) packet size mean  - Window size =2||+||
+|pck_size_std_2|RW packet size Std. - Window size =2||+||
+|ts_mean_2|RW packet time mean - Window size =2||+||
+|ts_std_2|RW packet time Std.- Window size =2||+||
+|TCP_window_mean_2|RW TCP Windows size mean - Window size =2||+||
+|TCP_window_std_2|RW TCP Windows size Std. - Window size =2||+||
+|payload_bytes_mean_2|RW Payload bytes mean - Window size =2||+||
+|payload_bytes_std_2|RW Payload bytes Std. - Window size =2||+||
+|entropy_mean_2|RW Entropy mean - Window size =2||+||
+|entropy_std_2|RW Entropy Std. - Window size =2||+||
 |dst_IP_diversity|Number of Destination IP (by Source IP)|||+|
 |dst_port_diversity|Number of Destination Port (by Source IP)|||+|
 |src_IP_diversity|Number of Source IP (by destination IP)|||+|
 |IP_add_count|Number of Source IP (by destination MAC)|||+|
-|sport|Source Port Number|+|||
-|dport|Destination Port Number|+|||
-|ID|WS_src=>WS_dst|+|||
 |pck_size_diff|the size difference of consecutive packets|||+|
 |pck_size_mean_WE|EW (expanding windows) packet size mean|||+|
 |pck_size_std_WE|EW packet size Std.|||+|
@@ -125,16 +154,6 @@
 |entropy_mean_WE|EW Entropy mean|||+|
 |entropy_std_WE|EW Entropy Std.|||+|
 |entropy_sum_of_EW|EW Entropy total.|||+|
-|pck_size_mean_2|RW (Rolling windows) packet size mean  - Window size =2||+||
-|pck_size_std_2|RW packet size Std. - Window size =2||+||
-|ts_mean_2|RW packet time mean - Window size =2||+||
-|ts_std_2|RW packet time Std.- Window size =2||+||
-|TCP_window_mean_2|RW TCP Windows size mean - Window size =2||+||
-|TCP_window_std_2|RW TCP Windows size Std. - Window size =2||+||
-|payload_bytes_mean_2|RW Payload bytes mean - Window size =2||+||
-|payload_bytes_std_2|RW Payload bytes Std. - Window size =2||+||
-|entropy_mean_2|RW Entropy mean - Window size =2||+||
-|entropy_std_2|RW Entropy Std. - Window size =2||+||
 |dport_sum|EW Unique destination port number|||+|
 |sport_sum|EW Unique source port number|||+|
 |TCP_FIN_sum|EW FINished Flag|||+|
@@ -170,24 +189,4 @@
 |TCP_URG_R|TCP_URG_sum/sum|||+|
 |TCP_ECE_R|TCP_ECE_sum/sum|||+|
 |TCP_CWR_R|TCP_CWR_sum/sum|||+|
-|pck_size_mean_6|RW (Rolling windows) packet size mean  - Window size =6||+||
-|pck_size_std_6|RW packet size Std. - Window size =6||+||
-|ts_mean_6|RW packet time mean - Window size =6||+||
-|ts_std_6|RW packet time Std.- Window size =6||+||
-|TCP_window_mean_6|RW TCP Windows size mean - Window size =6||+||
-|TCP_window_std_6|RW TCP Windows size Std. - Window size =6||+||
-|payload_bytes_mean_6|RW Payload bytes mean - Window size =6||+||
-|payload_bytes_std_6|RW Payload bytes Std. - Window size =6||+||
-|entropy_mean_6|RW Entropy mean - Window size =6||+||
-|entropy_std_6|RW Entropy Std. - Window size =6||+||
-|pck_size_mean_9|RW (Rolling windows) packet size mean  - Window size =9||+||
-|pck_size_std_9|RW packet size Std. - Window size =9||+||
-|ts_mean_9|RW packet time mean - Window size =9||+||
-|ts_std_9|RW packet time Std.- Window size =9||+||
-|TCP_window_mean_9|RW TCP Windows size mean - Window size =9||+||
-|TCP_window_std_9|RW TCP Windows size Std. - Window size =9||+||
-|payload_bytes_mean_9|RW Payload bytes mean - Window size =9||+||
-|payload_bytes_std_9|RW Payload bytes Std. - Window size =9||+||
-|entropy_mean_9|RW Entropy mean - Window size =9||+||
-|entropy_std_9|RW Entropy Std. - Window size =9||+||
 |Label|Packet Level Label|+|||
