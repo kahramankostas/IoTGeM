@@ -104,7 +104,7 @@
 |IP_add_count|Number of Source IP (by destination MAC)|||+|
 |sport|Source Port Number|+|||
 |dport|Destination Port Number|+|||
-|ID|Source IP+Destination IP|+|||
+|ID|WS_src=>WS_dst|+|||
 |pck_size_diff|the size difference of consecutive packets|||+|
 |pck_size_mean_WE|EW (expanding windows) packet size mean|||+|
 |pck_size_std_WE|EW packet size Std.|||+|
