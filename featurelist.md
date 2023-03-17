@@ -6,6 +6,8 @@
 |Ether_src|Source MAC Address|+|||
 |IP_src|Source Internet Protocol (IP) Address|+|||
 |IP_dst|Destination IP Address|+|||
+|WS_src|WireShark Source Address|+|||
+|WS_dst|WireShark Destination Address|+|||
 |pck_size|Packet (Frame) Size|+|||
 |Ether_type|Ethernet Type|+|||
 |LLC_dsap|Logical Link Control - Destination Service Access Point|+|||
