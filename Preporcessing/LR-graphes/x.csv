@@ -1,0 +1,74 @@
+Study,Year,Dataset,ML,Features,Cite
+Anthi2019a,2019,Private,"NB,BN,J48,ZeroR,OneR,LR,SVM,ANN,RF",Packet ,287
+Zolanvari2019,2019,Private,"RF,DT,NB,kNN,ANN,SVM,LR",Argus,218
+Roopak2019a,2019,CICIDS2017,"CNN,LSTM,RNN,NB,RF",Flowmeter,212
+Verma2020,2020,"CIDDS-01,UNSW-NB15,NSL-KDD","ANN,XGB,CB,kNN","NetFlow, Argus,Zeek, KDD",163
+Jan2019a,2019,CICIDS2017,"ANN,kNN,SVM,",Flowmeter,158
+Churcher2021,2021,BoT-IoT,"kNN,SVM,DT,NB,RF,ANN,LR",Argus,75
+"ferrag2022edge,",2022,Edge-IIoTset,"DT,RF,SVM,kNN,ANN",Packet ,42
+"abu2022elba,",2023,N-BaIoT,"AB,RB,Bagg",Kitsune,21
+Bagaa2020,2020,NSL-KDD,SVM,KDD,80
+"raghuvanshi2022intrusion,",2022,NSL-KDD,"SVM,RF,LR",KDD,34
+Bhuvaneswari2020,2020,BoT-IoT,"SVM,RNN,LSTM",Argus,60
+"mihoub2022denial,",2022,BoT-IoT,"RF,DT,kNN,MLP,RNN,LSTM",Argus,30
+"saba2022anomaly,",2022,"NID,BoT-IoT",CNN,"Argus, KDD",29
+Roy2022,2022,"CICIDS2017,NSL-KDD","CNN,LSTM,RNN,","Flowmeter,KDD",27
+Zhao2018,2018,KDD99,"kNN,PCA",KDD,78
+Ahmad2021,2021,UNSW-NB15,"RF,SVM,ANN","Argus, Zeek",32
+"mendoncca2022lightweight,",2021,"CICIDS2017,DS2OS","DT,SVM,RF,ANN,SET","Flowmeter,DS2OS",32
+"albulayhi2022iot,",2022,"IoTID20,NSL-KDD","ANN,kNN,Bagg,DT,","Flowmeter, KDD",21
+DeCarvalhoBertoli2021,2021,Private,"DT,RF,LR,NB,SVM,XGB,kNN,ANN",Packet ,27
+"saheed2022machine,",2022,UNSW-NB15,"XGB,CB,kNN,SVM,QDA,NB,PCA,","Argus,Zeek",18
+Anthi2021,2021,Private,"DT,RF,BN,SVM",Packet ,23
+"sarhan2022feature,",2022,"CICIDS2018,UNSW-NB15,TON_IoT","DFF,CNN,RNN,DT,NB,LR","Argus, Zeek, Flowmeter ",14
+"friha2022felids,",2022,"CICIDS2018,MQTTset,InSDN","CNN,RNN,ANN","Flowmeter,Packet",14
+"gupta2022smart,",2022,Private,"SVM,RF,LR,kNN,DT,NB",Flow(NA),14
+Maniriho2020,2020,IoTNI,RF,Flowmeter,26
+Hanif2019,2019,UNSW-NB15,ANN,"Argus, Zeek",31
+Saba2021,2021,NSL-KDD,SVM,KDD,18
+Abdelmoumin2021,2021,"TON_IoT,BoT-IoT","PCA,SVM",Argus,17
+"gaur2022analysis,",2021,CICDDoS2019,"RF,DT,kNN,XGB",Flowmeter,16
+"abu2022boost,",2021,TON_IoT,AB,Argus,15
+Amangele2019,2019,CICIDS2017,"kNN,CART,NB,kNN,NB,SVM,LDA,LR,CART",Flowmeter,23
+"chen2022intrusion,",2022,"AWID,CICIDS2017",CNN,"AWID, Flowmeter",9
+"zhang2022iot,",2022,"NSL-KDD,CICIDS2017,CICIDS2018","RF,ANN","KDD,Flowmeter",7
+"chokprasombat2011synthesis,",2021,UNSW-NB15,"RF,kNN","Argus,Zeek",10
+"mohmand2022machine,",2022,UNSW-NB15,"XGB,RF","Argus,Zeek",6
+"gupta2022hybrid,",2022,NSL-KDD,ANN,KDD,6
+"faysal2022xgb,",2022,N-BaIoT,"XGB,RF",Kitsune,6
+"prazeres2023engineering,",2023,"IoT-23,MQTT-IoT-IDS2020",ANN,"Zeek,  Bi-flow",3
+Das2020,2020,"UNSW-NB15,BoT-IoT","RF,NB,BN,NB,kNN,DT","Argus, Zeek",11
+Manhas2021,2021,KDD99,"kNN,ANN,DT,NB,SVM",KDD,8
+"baniasadi2022novel,",2022,"UNSW-NB15,BoT-IoT",CNN,"Argus,Zeek",5
+Reddy2021,2021,DS2OS,"CNN,ANN,SVM,RF",DS2OS,7
+Siddiqi2021,2021,"BoT-IoT,CICIDS2017,ISCXIDS2012,NSL-KDD,UNSW-NB15","SVM,RF,ANN","KDD,Flowmeter, Argus,Zeek",6
+"okey2022boostedenml,",2022,"CICIDS2017,CICIDS2018","LGBM,XGB",Flowmeter,4
+"ren2022id,",2022,CICIDS2018,CNN,Flowmeter,3
+"ahmad2022supervised,",2022,NSL-KDD,"SGD,NB,MLP,RF,DT,kNN,LR,SVM,",KDD,3
+"djenouri2022explainable,",2022,"IPFlow,N-BaIoT",CNN,"FlowLabeler, Kitsune",3
+Desai2020,2020,IoTNI,"RF,DT,NB,kNN,ANN,SVM,LR",Kitsune,5
+"reddy2022catboosting,",2022,DS2OS,CB,DS2OS,2
+"leon2022comparative,",2022,"KDD99,NSL-KDD,UNSW-NB15,CICIDS2017","ANN,SVM,RF,LDA,kNN,","KDD,Flowmeter, Argus,Zeek",2
+"zhang2022comparative,",2022,"KDD99,NSL-KDD","DT,NB,SVM,RF,CNN,RNN",KDD,2
+"dang2022using,",2022,CICIDS2018,"NB,LR,SVM,RF,XGB,CB",Flowmeter,2
+Bonandrini2020,2020,CIDDS-01,"kNN,DT,RF,ANN",NetFlow,3
+Mliki2020,2019,NSL-KDD,"SVM,kNN",KDD,3
+"mondal2022comparative,",2022,KDD99,"LR,kNN,DT,RF,AB,GB,NB",KDD,1
+"manzano2022design,",2022,BoT-IoT,RF,Argus,1
+"basharat2022machine,",2022,UNSW-NB15,"SVM,RF,Bagg,AB","Argus,Zeek",1
+"saran2023comparative,",2023,MQTT-IoT-IDS2020,"kNN,SVM,NB,RF,DT,SGD",Packet ,0
+"karmous2022proposed,",2022,TON_IoT,"LR,LDA,kNN,CART,NB,SVM,RF,",Argus,0
+"alsulami2022intrusion,",2022,IoTID20,"ANN,DT,BT,kNN,SVM,",Flowmeter,0
+"el2022anomaly,",2022,KDD99,"DT,kNN,RF,LR",KDD,0
+"lopez2022contrastive,",2022,"UNSW-NB15,NSL-KDD,AWID","RF,GB,SVM,CNN,ANN,RFF","AWID, Argus,Zeek,KDD",0
+"dave2022ddos,",2022,CICDDoS2019,"DT,ETC,XGB,RF",Flowmeter,0
+"tiwari2022detecting,",2022,UNSW-NB15,"LR,RF,DT,kNN,ETC,GB,ML,GRU,LSTM","Argus,Zeek",0
+"adewole2022dftmicroagg,",2022,NSL-KDD,"SVM,kNN,DT",KDD,0
+"yang2022ids,",2022,CICIDS2017,"DT,RF,ETC,XGB,LGBM,CB,CNN",Flowmeter,0
+"ibrahimi2022improving,",2022,BoT-IoT,"NB,RF,GB,DT",Argus,0
+"singh2022machine,",2022,CICIDS2017,"RF,DT,ETC,kNN",Flowmeter,0
+"molcer2022machine,",2022,TON_IoT,"XGB,CB,ANN,kNN",NetFlow,0
+"han2022machine,",2022,"KDD99,Kitsune","LR,SVM,DT,NB,RF,MLP","KDD, Kitsune",0
+"adeleye2022security,",2022,Private,"kNN,ANN,SVM,RF",NA,0
+"garg2022evaluate,",2022,BoT-IoT,"kNN,CNN,NB",Argus,0
+"vitorino2023towards,",2023,"IoT-23,BoT-IoT","RF,XGB,LGBM,IFOR","Argus,Zeek",0
