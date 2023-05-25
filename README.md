@@ -1,7 +1,7 @@
-# HerIoT: Learning Generalisable Attack Detection Models from Heterogeneous Public IoT Datasets
+# GeMIoT: Generalisable Models for Behaviour-Based IoT Attack Detection.
 
 # Overview
-In this repository you will find a Python implementation of the methods in the paper HerIoT: Learning Generalisable Attack Detection Models from Heterogeneous Public IoT Datasets.
+In this repository you will find a Python implementation of the methods in the paper GeMIoT: Generalisable Models for Behaviour-Based IoT Attack Detection.
 
 [link of artickle](https://kahramankostas.github.io/)
 
@@ -164,8 +164,8 @@ If you use the source code please cite the following paper:
 
 
 ```
-@misc{kostas2021iotdevid1,
-      title={{HerIoT}: Learning Generalisable Attack Detection Models from Heterogeneous Public {IoT} Datasets}, 
+@misc{kostas2023GeMIoT,
+      title={{GeMIoT}: Generalisable Models for Behaviour-Based {IoT} Attack Detection}, 
       author={Kahraman Kostas and Mike Just and Michael A. Lones},
       year={2023},
       eprint={xx.xx},
@@ -173,10 +173,6 @@ If you use the source code please cite the following paper:
       primaryClass={cs.CR}
 }
 ```
-
-
-
-
 
 Contact:
 *Kahraman Kostas
