@@ -160,7 +160,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # Citations
 If you use the source code please cite the following paper:
 
-*Kahraman  Kostas,  Mike  Just,  and  Michael  A.  Lones.   HerIoT: Learning Generalisable Attack Detection Models from Heterogeneous Public IoT Datasets, arXiv preprint, arxiv:x.x, 2023.*
+*Kahraman  Kostas,  Mike  Just,  and  Michael  A.  Lones.   IoTGeM:  Generalisable Models for Behaviour-Based IoT Attack Detection, arXiv preprint, arxiv:x.x, 2023.*
 
 
 ```
