@@ -1,4 +1,4 @@
-# GeMIoT: Generalisable Models for Behaviour-Based IoT Attack Detection.
+# IoTGeM: Generalisable Models for Behaviour-Based IoT Attack Detection.
 
 # Overview
 In this repository you will find a Python implementation of the methods in the paper IoTGeM: Generalisable Models for Behaviour-Based IoT Attack Detection.
