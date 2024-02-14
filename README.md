@@ -1,9 +1,9 @@
 # IoTGeM: Generalisable Models for Behaviour-Based IoT Attack Detection.
 
 # Overview
-In this repository you will find a Python implementation of the methods in the paper IoTGeM: Generalisable Models for Behaviour-Based IoT Attack Detection.
+In this repository you will find a Python implementation of the methods in the paper [IoTGeM: Generalisable Models for Behaviour-Based IoT Attack Detection](https://arxiv.org/abs/2401.01343)
 
-[link of artickle](https://kahramankostas.github.io/)
+
 
 
 # What is IoTGeM?
