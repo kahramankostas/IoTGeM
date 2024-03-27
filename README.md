@@ -168,7 +168,7 @@ If you use the source code please cite the following paper:
       title={{IoTGeM}: Generalisable Models for Behaviour-Based {IoT} Attack Detection}, 
       author={Kahraman Kostas and Mike Just and Michael A. Lones},
       year={2023},
-      eprint={xx.xx},
+      eprint={2401.01343},
       archivePrefix={arXiv},
       primaryClass={cs.CR}
 }
